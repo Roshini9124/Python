@@ -18,3 +18,14 @@ else:
 
 '''for i in range(-1,-(len(a)+1),-1):
     print(i,a[i])'''
+
+
+'''for i in range(1,6):
+    num=6*i
+    print(num)'''
+
+
+for i in range(1,6):
+    for j in range(1,i+1):
+        print("*",end="")
+    print()
