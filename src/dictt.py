@@ -22,3 +22,4 @@ d[1]="Roshini"
 print(d)
 
 print(d.get(4))
+print(d.popitem())
