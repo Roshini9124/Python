@@ -1,4 +1,5 @@
-class Person:
+
+'''class Person:
     def __init__(self,name,age):
         self.name=name
         self.age=age
@@ -28,4 +29,16 @@ e1=Dep("Joey",29,22,500000,"Actor")
 e1.display_person()
 
 
-    
+   
+age = 12
+
+assert age >= 18, "Age must be at least 18"
+
+print("Eligible to vote")
+
+class Student:
+    def __init__(self):
+        self.__age = 20
+s=Student()
+print(s._Student__age)
+'''
