@@ -8,8 +8,9 @@ def dec(func):
 
 
 
-@dec
+
 def add(a,b):
     print(a+b)
 
-add(5,4)
+res=dec(add)
+res(5,4)
