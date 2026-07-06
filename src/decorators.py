@@ -1,16 +1,19 @@
 def dec(func):
-    def wrapper(a,b):
+    def wrapper(*args):
         print("Welcome user")
-        func(a,b)
+        ans=func(*args)
+        
         print("Bye user")
+        return ans
     return wrapper
 
 
 
 
-
+@dec
 def add(a,b):
-    print(a+b)
+    return (a+b)
 
-res=dec(add)
-res(5,4)
+
+res=add(5,4)
+print(res)
