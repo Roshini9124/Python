@@ -11,8 +11,8 @@ def dec(func):
 
 
 @dec
-def add(a,b):
-    return (a+b)
+def add(*args):
+    return sum(args)
 
 
 res=add(5,4)
