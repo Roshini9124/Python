@@ -3,7 +3,7 @@ import logging as l
 logging.basicConfig(
     filename="bank.log",
     level=logging.INFO,
-    format="%(asctime)s %(levelname)s %(message)s"
+    format="%(asctime)s %(levelname)s %(message)s %(funcName)s"
 )
 
 def withdraw(balance, amount):
